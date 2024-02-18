@@ -1,0 +1,78 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/boostrap.css' %}">
+    <link rel="stylesheet" href="{% static 'css/mdb.css' %}">
+    <style>
+        img
+        {
+            height: 300px;
+            width: 300px;
+            
+
+        }
+    </style>
+    
+</head>
+<body>
+    <center>
+        <h1 class="btn btn-success">MDB4</h1>
+        <button type="button" class="btn btn-primary">primary</button>
+
+      <div class="#carouselExamplecaptions" class="carousel slide" data-ride="carousel"><ol class="carousel-indicators">
+                </ol>             
+  
+        <div class="'carousel-inner">
+  
+          <div class="carousel-item active" >
+            <img src="{% static 'images/kohli.jpg' %}" class="d-block w-150" alt="...">
+                  
+          <div class="carousel-caption d-done d-md-block" >
+            <h5>First slide label </h5>
+            <p>This is stlye virate</p>
+          </div>
+            <img src="{% static 'images/kohli2.jpg' %}" class="d-block w-100" alt="...">
+            <div class="carousel-capiton d-none d-md-block">
+              <h5>second slide label</h5>
+              <p>some respresentative placeholder content for the second slide..</p>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-target="#carouselExamplecaptions" data-hidden="true">
+            <span class="sr-only">privious</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-target="#carouselExamplecaptions" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </button>
+  
+          <div class="carousel-item active" >
+            <img src="{% static 'images/virat.jpeg' %}" type="button" alt="...">
+            <div class="carousel-capiton d-none d-md-block">
+              <h5>second slide label</h5>
+              <p>some respresentative placeholder content for the second slide..</p>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-target="#carouselExamplecaptions" data-hidden="true">
+            <span class="sr-only">privious</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-target="#carouselExamplecaptions" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </button>
+          </div>
+        </div>
+    </div>
+      </center>
+      
+
+    <script src="{% static 'js/jquery.js' %}"></script>
+    <script src="{% static 'js/popper.js' %}"></script>
+    <script src="{% static 'js/bootstrap.js' %}"></script>
+    <script src="{% static 'js/mdb.js' %}"></script>
+        
+</body>
+</html>
